@@ -76,3 +76,18 @@ form .submit_btn:hover{
 	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
 	color: black;
 }
+.container_success form .return{
+    width: 30%;
+    float: right;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: #E94057;
+    color: white;
+}
+.container_success form .return:hover{
+    background: #8A2387;
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    color: black;
+}

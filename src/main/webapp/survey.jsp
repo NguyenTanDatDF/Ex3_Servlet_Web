@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
+	<div class ="container">
 	<h1>Thanks for taking our survey!</h1>
 	
 	<p>Here is the information that you entered:</p>
@@ -27,6 +28,7 @@
         <label>Contact Via:</label>
         <span>${user.contactVia}</span>
     </c:if>--%>
+	</div>
 </body>
 
 </html>

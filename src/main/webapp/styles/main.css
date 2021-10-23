@@ -1,32 +1,78 @@
 @charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body
 {
-	font-family:Arial,Helvetica,sans-serif;
-	font-size: 11pt;
-	margin-left:2em;
-	margin-right:2em;
+	font-family: "Poppins";
+	background: #8A2387;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: auto;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	overflow: hidden;
 }
-h1
-{
-	color:teal;
+body:hover{
+	background: #FDC830;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-label
-{
-	float:left;
-	width:6em;
-	margin-bottom:0.5em;
+.container{
+	margin: 50px 0px;
+	border: 1px solid black;
+	padding: 30px 20px;
+	border-radius: 3px;
+	background-color: white;
 }
-input[type="text"], input[type="email"]
-{
-	width:15em;
-	margin-left:0.5em;
-	margin-right:0.5em;
+form h1, form p{
+	text-align: center;
+	margin-bottom: 10px;
 }
-br
-{
-	clear:both;
+form .input_item{
+	width: 100%;
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
 }
-#submit
-{
-	margin-left:0.5em;
+form h2{
+	margin-top: 20px;
+}
+form .radio_container{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+form .radio_container .input_radio_item{
+	padding: 0px 30px;
+}
+form .announcement_container{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+form .announcement_container p{
+	margin-right: 50px;
+}
+form .submit_btn{
+	float: right;
+	margin-top: 20px;
+	border: 1px solid black;
+	padding: 10px 30px;
+	background-color: #E94057;
+	color: white;
+	cursor: pointer;
+}
+form .submit_btn:hover{
+	background: #8A2387;
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+	color: black;
 }
